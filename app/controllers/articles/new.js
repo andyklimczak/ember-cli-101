@@ -9,7 +9,7 @@ export default Ember.Controller.extend({
         return true;
       } else {
         this.set('errorMessage', 'You have to fill in description');
-        return false
+        return false;
       }
     }
   }
